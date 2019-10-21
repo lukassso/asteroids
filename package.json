@@ -1,0 +1,56 @@
+{
+  "name": "asteroids",
+  "version": "1.0.1",
+  "description": "Asteroids retro game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --env dev --mode none",
+    "prod": "webpack --env prod --mode production",
+    "predeploy": "npm run prod",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "name",
+  "license": "",
+  "devDependencies": {
+    "autoprefixer": "^8.6.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
+    "file-loader": "^3.0.1",
+    "gh-pages": "^2.1.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^4.0.0-beta.8",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "imagemin-webpack": "^5.1.0",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^2.1.6",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.7.0",
+    "webpack-modernizr-loader": "^5.0.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "browsers": [
+    "> 0.25%",
+    "ie >= 11"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukassso/asteroids.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukassso/asteroids/issues"
+  },
+  "homepage": "https://github.com/lukassso/asteroids#readme"
+}
